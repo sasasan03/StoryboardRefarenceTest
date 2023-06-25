@@ -7,6 +7,9 @@
 
 import UIKit
 
-class SettingViewContorller {
-    
+class SettingViewController: UIViewController {
+    //SetingViewを生成するメソッド
+    static func instantiate() -> SettingViewController {
+        UIStoryboard(name: "SettingViewController", bundle: nil).instantiateInitialViewController()  as! SettingViewController
+    }
 }

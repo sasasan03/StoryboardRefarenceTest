@@ -20,10 +20,21 @@
                         <segue destination="oPW-hj-Ci3" kind="relationship" relationship="viewControllers" id="DOQ-8V-zm7"/>
                         <segue destination="rjn-pA-02J" kind="relationship" relationship="viewControllers" id="raC-g8-8F3"/>
                         <segue destination="hxl-Ge-hmK" kind="relationship" relationship="viewControllers" id="h53-Ns-7e4"/>
+                        <segue destination="9wd-c2-O6C" kind="relationship" relationship="viewControllers" id="92u-cr-dfF"/>
                     </connections>
                 </tabBarController>
             </objects>
             <point key="canvasLocation" x="486" y="399"/>
+        </scene>
+        <!--SettingViewController-->
+        <scene sceneID="nn1-Iw-0IT">
+            <objects>
+                <viewControllerPlaceholder storyboardName="SettingViewController" id="9wd-c2-O6C" sceneMemberID="viewController">
+                    <tabBarItem key="tabBarItem" title="Item" id="Fir-YY-2h2"/>
+                </viewControllerPlaceholder>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="eOL-Lc-3Qt" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="1124" y="181"/>
         </scene>
         <!--GrayView-->
         <scene sceneID="mGB-CG-x0E">
